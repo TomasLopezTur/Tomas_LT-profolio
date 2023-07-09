@@ -1,0 +1,52 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    background-color:rgba(238,238,238,0.5);
+    margin: 0 auto;
+    border-radius: 10px;
+    margin: 1rem;
+    position:sticky;
+    /* opacity: 0.8; */
+    margin-top: 4rem;
+    box-shadow: 0 0 10px rgba(238,238,238,0.5);
+}
+footer a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 11px 5px 11px;
+    
+}
+footer a img.footer-icon{
+    margin: .5rem;
+    width: 2rem;
+    cursor: pointer;
+    border-radius: 15%;
+    transition: all .5s ease-in-out;
+} 
+footer a img.footer-icon:hover{
+    /* width: 2.2rem; */
+    box-shadow:0 5px 10px rgba(238,238,238,0.5);
+    transform: translateY(-2px) ;
+    
+}
+footer a img.gitH{
+    border-radius: 45%;
+}
+footer a img.insta{
+    border-radius: 30%;
+}
+
+@media (min-width: 700px){
+    footer {
+        justify-content: space-evenly;
+        margin: 0 auto;
+        max-width: 500px;
+        margin-bottom: 2rem;
+        margin-top: 5rem;
+
+    }
+
+}

@@ -1,0 +1,40 @@
+/* Views styles */
+@import url("/css/home.css");
+@import url("/css/header.css");
+@import url("/css/footer.css");
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@300;400;500;700&display=swap');
+
+/* color and font*/
+:root {
+    /* color */
+    --withe-grey: #EEEEEE;
+    --grey: #423F3E;
+    --dark-grey: #2B2B2B;
+    --red-space: #362222;
+    --dark-red_body: #171010;
+    /* fonts */
+    --font-p:'Montserrat', sans-serif;
+    --other-font:'Cairo Play', sans-serif;
+    /* size */
+}
+
+/* general code */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-image: url(../img/e3a154aead160b837d52b74cea3a816f.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    object-fit: cover;
+    position: sticky;
+    
+}
+
